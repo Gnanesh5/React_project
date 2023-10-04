@@ -79,7 +79,7 @@ const showForm = () => {
               {tasks.length > 0 ?<Tasks task = {tasks} onDelete = {deletetask} onToggle={toggleRemainder}/> : 'No tasks to show'}
             </>
   )}/>
-          <Route path='/about' Component={About}/>
+          {/* <Route path='/about' Component={About}/> */}
         </Routes>
         <Footer />
     </div>
